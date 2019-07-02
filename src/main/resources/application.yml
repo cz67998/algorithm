@@ -1,0 +1,17 @@
+
+spring:
+  primarydatasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://127.0.0.1:3306/sell
+    username: root
+    password: 123456789
+
+  seconddatasource:
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     jdbc-url: jdbc:mysql://127.0.0.1:3306/test
+     username: root
+     password: 123456789
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
